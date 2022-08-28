@@ -1,0 +1,5 @@
+#!/bin/bash
+#Name: Xiaohan Sun
+#Email: xiaohan.sun94@myhunter.cuny.edu
+#This program write an Unix shell script that prints Hello, World to the screen
+echo "Hello, World"

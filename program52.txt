@@ -1,0 +1,6 @@
+#Name: Xiaohan Sun
+#Email: xiaohan.sun94@myhunter.cuny.edu
+#Date: April 22, 2022
+#This program uses Unix shell commands, writes a script that counts the number of .py files in current working directory
+
+ls -l | grep ".py" | wc -l

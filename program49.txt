@@ -1,0 +1,10 @@
+#Name: Xiaohan Sun
+#Email: xiaohan.sun94@myhuntercuny.edu
+#Date: April 22, 2022
+#This program creates directories for project
+
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results

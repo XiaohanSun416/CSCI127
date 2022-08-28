@@ -1,0 +1,12 @@
+#Name: Xiaohan Sun
+#Email: xiaohan.sun94@myhuntercuny.edu
+#Date: April 22, 2022
+#This program writes a simplified machine language program
+
+ADDI $s0, $zero, 0
+ADDI $s1, $zero, 5
+ADDI $s2, $zero, 50
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  #To break out of the loop
